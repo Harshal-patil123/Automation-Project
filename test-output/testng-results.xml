@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-06-30T15:25:19 IST" name="Suite" finished-at="2026-06-30T15:25:35 IST" duration-ms="16086">
+    <groups>
+    </groups>
+    <test started-at="2026-06-30T15:25:19 IST" name="Test" finished-at="2026-06-30T15:25:35 IST" duration-ms="16086">
+      <class name="Login.LoginTestCases">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Login.LoginTestCases@24aed80c]" started-at="2026-06-30T15:25:29 IST" name="preCondition" finished-at="2026-06-30T15:25:32 IST" duration-ms="3744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="verifyLoginUsingValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:Login.LoginTestCases@24aed80c]" started-at="2026-06-30T15:25:32 IST" name="verifyLoginUsingValidCredentials" data-provider="sender" finished-at="2026-06-30T15:25:35 IST" duration-ms="2348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harshalandpatil@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harshal@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Login.LoginTestCases@24aed80c]" started-at="2026-06-30T15:25:35 IST" name="postCondition" finished-at="2026-06-30T15:25:35 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Login.LoginTestCases -->
+      <class name="Register.RegisterTestCases">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Register.RegisterTestCases@815b41f]" started-at="2026-06-30T15:25:20 IST" name="preCondition" finished-at="2026-06-30T15:25:24 IST" duration-ms="4393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="verifyingRegisteringAccountByMandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Register.RegisterTestCases@815b41f]" started-at="2026-06-30T15:25:24 IST" name="verifyingRegisteringAccountByMandatoryFields" data-provider="sender" finished-at="2026-06-30T15:25:28 IST" duration-ms="3806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harshal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Harshal@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Harshal@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyingRegisteringAccountByMandatoryFields -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Register.RegisterTestCases@815b41f]" started-at="2026-06-30T15:25:28 IST" name="postCondition" finished-at="2026-06-30T15:25:28 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Register.RegisterTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
